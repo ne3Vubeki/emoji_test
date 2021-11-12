@@ -1,3 +1,3 @@
-## 1.0.0
+## 14.0.0
 
-- Initial version, created by Stagehand
+- Initial version, add regex emojis Unicode 14.0.0

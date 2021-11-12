@@ -11,7 +11,7 @@ A simple usage example:
 import 'package:emoji_test/emoji_test.dart';
 
 main() {
-  var awesome = new Awesome();
+  var regex = Emoji.regex;
 }
 ```
 
@@ -19,4 +19,4 @@ main() {
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/ne3Vubeki/emoji_test/issues

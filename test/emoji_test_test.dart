@@ -3,14 +3,16 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    Awesome awesome;
+    RegExp regex;
+    Emoji contents ;
 
     setUp(() {
-      awesome = Awesome();
+      regex = Emoji.regex;
+      contents = 'Hey everyone 🥺🥺🥺' as Emoji;
     });
 
     test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      expect(contents.hasEmoji, isTrue);
     });
   });
 }

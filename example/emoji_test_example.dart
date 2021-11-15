@@ -2,6 +2,7 @@ import 'package:emoji_test/emoji_test.dart';
 
 void main() {
   var strEmoji = 'Hey everyone 🥺🥺🥺';
-  print(strEmoji);
-  print(strEmoji.replaceAll(Emoji.regex, ''));
+  print('There has emoji: ${strEmoji.hasEmoji()}');
+  print(strEmoji.replaceAll(RegExp(EMOJIS_REGEX), ':)'));
+  print(strEmoji.removeEmoji());
 }

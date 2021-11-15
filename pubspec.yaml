@@ -1,15 +1,15 @@
 name: emoji_test
 description: emoji-test provides a regex to match all emoticon characters and sequences according to the latest Unicode standard.
-version: 14.0.0
+version: 14.0.2
 publish_to: https://pub.dev
 homepage: https://github.com/ne3Vubeki/emoji_test.git
 repository: https://github.com/ne3Vubeki/emoji_test.git
 
 environment:
-  sdk: '>=2.10.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
 
 dev_dependencies:
-  pedantic: ^1.9.0
-  test: ^1.14.4
+  pedantic: ^1.11.1
+  test: ^1.17.12
